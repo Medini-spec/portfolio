@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<!------------using fontawesome------------------------------------------------------>
+	
 	<script src="https://kit.fontawesome.com/c8e4d183c22.js" crossorigin="anonymous"></script>
 
 </head>
@@ -176,5 +177,16 @@
 			<a href="#"><i class="fa fa-youtube-play"></i></a>
 	</div>
 	<a href="#" class="top"><i class="fa fa-angle-up" ></i></a>
+	
+	<!----------------------JQUERY------------------------------>
+	<script type="text/javascript" src="js/jQuery.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.toggle').click(function(){
+					$('.toggle').toggleClass('active')
+					$('nav').toggleClass('active')
+			})
+		})
+	 </script>  
 </body>
 </html>
